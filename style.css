@@ -1,0 +1,200 @@
+.navbar{
+
+	background-color: black;
+	color:white;
+	padding:2px;
+	flex-direction: column;
+	font-family: 'Geologica', sans-serif;
+
+}
+.navbar ul{
+	display: flex;
+	list-style:none;
+	justify-content: center; ;
+}
+
+.navbar ul li{
+margin: 7px;
+margin-top: 1px;
+margin-bottom: 1px;
+margin-right: 20px;
+padding:1px;
+}
+
+.navelement{
+	text-decoration: none;
+	color:white;
+}
+
+.logo{
+position: absolute;
+display: flex;
+top:4px;
+left:30px;
+color: white;
+font-family:  sans-serif;
+   
+
+}
+ .profile{
+
+ 	display: flex;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    right: 19px;
+    top: 5px;
+}
+.intro{
+	position: absolute;
+	display: block;
+	justify-content: center;
+	text-align: center;
+    top: 81px;
+    left: 128px;
+
+	font-size: 20px;
+
+font-family: 'Playfair', serif;
+
+}
+
+}
+
+.imgcontainer{
+	display: flex;
+}
+
+.imgcontainer img{
+	height:100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.icon{
+position: absolute;
+	display: block;		
+	height: 50px;
+	width: 50px;
+}
+#icon1{
+	margin: 20px;
+	left:282px;
+	top: 233px;
+}
+#icon2{
+	 margin: 20px;
+	 left:205px;
+	top: 233px;
+}
+#icon3{
+	 margin: 20px;
+	 top:234px;
+
+	left:133px;
+}
+
+.bgphoto {
+    position: absolute;
+    display: block;
+    height: 260px;
+    width: 260px;
+    right: 134px;
+    top: 84px;
+
+
+}
+.bgphoto:hover{
+
+	transform: scale(1.2);
+}
+
+.education{
+	width: 99%;
+    position: absolute;
+    top: 378px;
+    left: 7px;
+    font-family:  sans-serif;
+    text-align:center;
+
+    
+}
+.skills{
+	background-color: black;
+	width: 100%;
+	height:200px;
+	color:white;
+    position: absolute;
+
+}
+.skills h2{
+	text-align: center;
+}
+.skills1{
+			
+	position: absolute;
+	margin-left:15%;
+	width: 70%;
+	height:64%;
+
+}
+.skills img{
+height: 80px;
+width: 80px;
+
+
+}
+#sk1{
+margin:10px;
+margin-left:  25px;
+margin-bottom:70px;
+
+}
+#sk2{
+margin: 10px;
+margin-left:  25px;
+margin-bottom: 70px;
+
+}
+#sk3{
+margin: 10px;
+margin-left:  29px;
+width:100px;
+margin-bottom: 70px;
+
+}
+#sk4{
+margin: 10px;
+margin-left:  57px;
+margin-bottom: 70px;
+}
+#sk5{
+margin: 10px;
+margin-left:  35px;
+margin-bottom: 70px;
+}
+/*hover */
+a:hover{
+
+	color: yellow;
+}
+.icon:hover{
+	transform: scale(1.1);
+}
+.trans:hover{
+	transform: scale(1.2);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 500px) {
+  .flex-container {
+    flex-direction: row-reverse;
+  }
+}
